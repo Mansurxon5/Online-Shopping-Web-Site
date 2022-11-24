@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+footer .logo-branding .class {
+  display: none;
+}
+
+.get-start {
+  margin: 40px auto;
+}
+
+@media (max-width: 768px) {
+  .boxxing {
+    padding: 10px;
+  }
+  .boxxing nav .logo {
+    width: 50%;
+  }
+  .boxxing nav .menu {
+    display: none;
+  }
+  .boxxing nav .btn-group {
+    width: 50%;
+  }
+  .boxxing header .header-left {
+    width: 100%;
+    padding: 0;
+  }
+  .boxxing header .header-left h2 {
+    font-size: 20px;
+  }
+  .boxxing header .header-left h1 {
+    font-size: 45px;
+  }
+  .boxxing header .header-left .ready-box,
+.boxxing header .header-left h3 {
+    font-size: 16px;
+  }
+  .boxxing header .header-left h4 {
+    font-size: 30px;
+  }
+  .boxxing header .header-left h4 span {
+    font-size: 25px;
+  }
+  .boxxing header .header-right {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 30px 0 0 0;
+  }
+  .boxxing header .header-right img:nth-child(2) {
+    display: none;
+  }
+  .boxxing header .header-right img {
+    position: static;
+  }
+  .boxxing header .bottom {
+    padding: 0;
+    min-height: 15vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .boxxing header .bottom .bottom-left {
+    width: 45%;
+    gap: 20px;
+  }
+  .boxxing header .bottom .bottom-left .custom h2 {
+    font-size: x-large;
+  }
+  .boxxing header .bottom .bottom-left .custom h3 {
+    font-size: 12px;
+  }
+  .boxxing header .bottom .bottom-right {
+    width: 55%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .boxxing header .bottom .bottom-right img {
+    max-width: 80%;
+    height: 5.6vh;
+  }
+  .product {
+    padding: 10px;
+  }
+  .product .nav h1 {
+    font-size: 35px;
+  }
+  .product .nav .forward {
+    width: 100%;
+    font-size: 16px;
+  }
+  .product .body .item {
+    max-width: 100%;
+    width: 380px;
+  }
+  .product .body .item h1 {
+    margin-top: 56px;
+  }
+  .product .body .item:nth-child(2) h1 {
+    margin-top: 90px;
+  }
+  .product .body .item:nth-child(3) h1 {
+    margin-top: 100px;
+  }
+  .teling {
+    padding: 10px;
+  }
+  .teling .view {
+    display: none;
+  }
+  .teling .teling-box {
+    width: 100%;
+    margin: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .teling .teling-box .teling-left {
+    width: 100%;
+    padding: 0;
+    min-height: 30vh;
+  }
+  .teling .teling-box .teling-left .you {
+    font-size: xx-large;
+  }
+  .teling .teling-box .teling-left .have {
+    font-size: 16px;
+    width: 100%;
+  }
+  .teling .teling-box .teling-right {
+    width: 100%;
+    min-height: 40vh;
+    padding: 0;
+  }
+  .shoes {
+    padding: 10px;
+  }
+  .shoes .shoes-left {
+    min-height: 50vh;
+    width: 100%;
+  }
+  .shoes .shoes-left .border-bold {
+    position: static;
+    width: 100%;
+    min-height: 42vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shoes .shoes-left img {
+    position: static;
+    margin: 0;
+  }
+  .shoes .shoes-right {
+    padding: 0;
+    width: 100%;
+  }
+  .shoes .shoes-right .shoes-text {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: xx-large;
+  }
+  .shoes .shoes-right .shoes-box {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .shoes .shoes-right .shoes-box .come {
+    font-size: 13px;
+    width: 100%;
+  }
+  .get-start {
+    width: 100%;
+    min-height: 40vh;
+  }
+  .get-start h1 {
+    font-size: xx-large;
+  }
+  .get-start .that-box {
+    width: 100%;
+    font-size: 16px;
+  }
+  footer {
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer ul {
+    display: none;
+  }
+  footer ul li {
+    display: none;
+  }
+  footer ul a {
+    display: none;
+  }
+  footer .class {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .greatest {
+    border: solid;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10px;
+  }
+  .greatest .greatest-right {
+    padding: 0;
+  }
+  .greatest .greatest-right .name-sohag .bars {
+    width: 70px;
+  }
+  .greatest .greatest-right .name-sohag .shahr-box h2 {
+    font-size: 20px;
+  }
+  .greatest .greatest-right .name-sohag .shahr-box .with {
+    font-size: 14px;
+  }
+  .greatest .greatest-right .name-sohag .ui-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .greatest .greatest-right .name-sohag .ui-box img {
+    width: 90px;
+  }
+  .greatest .greatest-right .name-sohag .ui-box h3 {
+    font-size: 12px;
+  }
+  .greatest .greatest-right .abs {
+    display: none;
+  }
+}

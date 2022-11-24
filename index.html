@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 8 tailwindcss JavaScript </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="boxxing w-full min-h-screen bg-[#def9d5] z-0">
+        <nav class="w-full min-h-[12vh] flex">
+            <div class="logo w-[33%] min-h-[12vh] flex justify-center items-center "><img src="./image/1.png" alt="">
+            </div>
+            <div class="menu w-[33%] min-h-[12vh] flex justify-evenly items-center">
+                <a href="#"
+                    class="text-[16px] text-[#051101] opacity-[.6] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e]">Home</a>
+                <a href="#"
+                    class="text-[16px] text-[#051101] opacity-[.6] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e]">Product</a>
+                <a href="#"
+                    class="text-[16px] text-[#051101] opacity-[.6] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e] z-10">About</a>
+                <a href="#"
+                    class="text-[16px] text-[#051101] opacity-[.6] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e]">Review</a>
+            </div>
+            <div class="btn-group w-[34%] min-h-[12vh]  flex justify-center items-center"><button
+                    class="w-[150px] z-10 min-h-[50px] bg-[#5CBE3A] rounded-md uppercase text-white text-[16px] hover:border-2 hover:border-[#5CBE3A] hover:bg-white hover:text-[#5CBE3A] duration-[.3s]">Shpo
+                    now</button></div>
+        </nav>
+        <header class="w-full min-h-[88vh] flex-wrap flex pb-[20px]">
+            <div class="header-left w-[53%] min-h-[60vh]  flex flex-col justify-center gap-5 pt-[60px] pl-[156px] ">
+                <h2 class="flex items-center text-[#5CBE3A] text-[27px] font-[600] gap-3 font-['Raleway']">Bring power
+                    to your steps. <img src="./image/6.png" alt=""></h2>
+                <h1 class="text-[#051101] text-[60px] font-bold font-['Raleway']">Walk the line.</h1>
+                <div class="ready-box opacity-[.7] font-['Raleway'] text-[#051101] text-[20px] w-[100%]">
+                    Now that you have a ready strategy to move forward, it’s time to come up with some ideas.
+                </div>
+                <h3 class="opacity-[.7] text-[20px] font-['Raleway'] text-[#051101]">Now that you have a <span
+                        class="text-[#5CBE3A]">ready strategy</span> to move forward,</h3>
+                <h4 class="text-[#5CBE3A] text-[40px] font-bold font-['Raleway']">Price : $125 <span
+                        class="text-[#87D16D] text-[30px] ml-[20px]">$169</span></h4>
+                <div class="learn-box flex gap-6">
+                    <button
+                        class="w-[150px] min-h-[50px] bg-[#5CBE3A] text-white text-[20px] rounded-md font-['Raleway'] hover:border-[1.3px] hover:border-[#5CBE3A4D] hover:text-[#5CBE3A] duration-[.3s] hover:bg-white ">Shpo
+                        now</button>
+                    <button
+                        class="w-[150px] min-h-[50px] bg-[#5CBE3A] text-white text-[20px] rounded-md font-['Raleway'] hover:border-[1.3px] hover:border-[#5CBE3A4D] hover:text-[#5CBE3A] duration-[.3s] hover:bg-white ">Learn
+                        More</button>
+                </div>
+            </div>
+            <div class="header-right relative w-[47%] flex justify-center items-center min-h-[60vh]">
+                <img src="./image/2.png" class="z-20 relative left-[17%] top-[-10%]" alt="">
+                <img src="./image/3.png" class="top-[-14%] z-0 absolute" alt="">
+                <img src="./image/4.png" class="z-20 relative top-[12%] right-[15%] " alt="">
+            </div>
+            <div class="bottom w-[100%] min-h-[20vh] flex p-[20px]">
+                <div class="bottom-left w-[50%] min-h-[20vh] flex justify-center items-center gap-14">
+                    <div class="custom flex flex-col justify-center items-center">
+                        <h2 class="text-[#5CBE3A] font-bold font-['Raleway'] text-[73px]">70k</h2>
+                        <h3 class="text-[#051101] opacity-[.7]">CUSTOMERS</h3>
+                    </div>
+                    <div class="custom flex flex-col justify-center items-center">
+                        <h2 class="text-[#5CBE3A] font-bold font-['Raleway'] text-[73px]">17k</h2>
+                        <h3 class="text-[#051101] opacity-[.7]">REVIEW</h3>
+                    </div>
+                </div>
+                <div class="bottom-right w-[50%] min-h-[20vh] flex justify-end pr-[40px]"><img src="./image/5.png"
+                        alt=""></div>
+            </div>
+        </header>
+    </div>
+    <div class="product w-full min-h-[80vh]">
+        <div class="nav w-full min-h-[13vh] flex flex-col pt-[30px] gap-3 justify-center items-center">
+            <h1 class="text-[50px] font-bold font-['Raleway']">Our Latest Product</h1>
+            <div class="forward text-[#051101] opacity-[.7] w-[43%] text-center text-[18px]">
+                Now that you have a ready strategy to move forward, it’s time to come up with some ideas.
+            </div>
+
+        </div>
+        <div class="body w-full min-h-[67vh] flex gap-12 flex-wrap  py-[20px] justify-center items-center">
+            <div
+                class="item group w-[25%] min-h-[50vh] hover:shadow-xl duration-[.3s] relative pb-[15px] flex justify-center flex-col items-center gap-3">
+                <img src="./image/8.png" alt="">
+                <img src="./image/7.png" class="absolute top-[-30%]" alt="">
+                <h1 class="font-['Raleway'] text-[25px] uppercase mt-[23px] font-[500]">Aliquam lobortis</h1>
+                <img src="./image/11.png" alt="">
+                <h2 class="font-bold font-['Raleway'] text-[23px]">$75.00 – $85.00</h2>
+                <button
+                    class="w-[150px] min-h-[50px] border-[1.5px] group-hover:bg-[#5CBE3A] group-hover:text-[white] group-hover:border-none duration-[.3s] border-[#5CBE3A4D] rounded-lg text-[#5CBE3A] text-[20px] font-['Raleway']">Shpo
+                    now</button>
+            </div>
+            <div
+                class="item group w-[25%] min-h-[50vh] hover:shadow-xl duration-[.3s] relative pb-[15px] flex justify-center flex-col items-center gap-3">
+                <img src="./image/9.png" alt="">
+                <img src="./image/7.png" class="absolute top-[-30%]" alt="">
+                <h1 class="font-['Raleway'] text-[25px] mt-[60px] font-[500]">FUSCE ALIQUAM</h1>
+                <img src="./image/11.png" alt="">
+                <h2 class="font-bold font-['Raleway'] text-[23px]">$65.00 – $75.00</h2>
+                <button
+                    class="w-[150px] min-h-[50px] border-[1.5px] group-hover:bg-[#5CBE3A] group-hover:text-[white] group-hover:border-none duration-[.3s] border-[#5CBE3A4D] rounded-lg text-[#5CBE3A] text-[20px] font-['Raleway']">Shpo
+                    now</button>
+            </div>
+            <div
+                class="item group w-[25%] min-h-[50vh] hover:shadow-xl duration-[.3s] relative pb-[15px] flex justify-center flex-col items-center gap-3">
+                <img src="./image/10.png" alt="">
+                <img src="./image/7.png" class="absolute top-[-30%]" alt="">
+                <h1 class="font-['Raleway'] text-[23px] mt-[73px] font-[500]">AIR SUPERIORITY</h1>
+                <img src="./image/11.png" alt="">
+                <h2 class="font-bold font-['Raleway'] text-[23px]">$35.00 – $45.00</h2>
+                <button
+                    class="w-[150px] min-h-[50px] border-[1.5px] group-hover:bg-[#5CBE3A] group-hover:text-[white] group-hover:border-none duration-[.3s] border-[#5CBE3A4D] rounded-lg text-[#5CBE3A] text-[20px] font-['Raleway']">Shpo
+                    now</button>
+            </div>
+        </div>
+    </div>
+    <div class="teling w-full min-h-[87vh] relative">
+        <img src="./image/12.png" class=" view z-0 top-[3%] absolute" alt="">
+        <div class="teling-box w-[90%] min-h-[300px] flex ml-[125px]">
+            <div
+                class="teling-left w-[50%] bg-[#F6FFF3] flex flex-col justify-center pl-[100px] gap-4 relative z-10 min-h-[87vh]">
+                <div class="you text-[#051101] text-[50px] font-bold font-['Raleway'] w-[90%]">
+                    Telling your story with videos
+                </div>
+                <div class="have text-[#051101] opacity-[.7] text-[18px] w-[65%]">Now that you have a ready strategy to
+                    move forward, it’s time to come up with some ideas.</div>
+            </div>
+            <div class="teling-right p-[10px] w-[50%] min-h-[67vh] flex justify-center items-center">
+                <img src="/image/13.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="shoes w-full min-h-[80vh] flex flex-wrap">
+        <div class="shoes-left w-[50%] min-h-[80vh] flex justify-center items-center relative">
+            <div class="border-bold w-[490px] min-h-[450px] border-[20px] border-[#E5F2E1]">
+                <img src="/image/15.png" class="ml-[20px] w-[77%] absolute mt-[15px]" alt="">
+            </div>
+        </div>
+        <div
+            class="shoes-right w-[50%] min-h-[80vh] bg-[url(/image/14.png)] font-['Raleway'] gap-5 flex-wrap flex flex-col justify-center items-center ">
+            <div class="shoes-text w-[80%] text-[#051101] pl-[20px] text-[45px] font-bold font-['Raleway']">The best
+                shoes for the best people.</div>
+            <div class="shoes-box w-full min-h-[10vh] gap-4 flex justify-center items-center">
+                <img src="./image/16.png" width="50" alt="">
+                <div class="come w-[63%] text-[#051101] opacity-[.7]  text-[18px]">Now that you have a ready strategy to
+                    move forward, it’s time to come up with some ideas.</div>
+            </div>
+            <div class="shoes-box w-full min-h-[10vh] gap-4 flex justify-center items-center">
+                <img src="./image/16.png" width="50" alt="">
+                <div class="come w-[63%] text-[#051101] opacity-[.7]  text-[18px]">Now that you have a ready strategy to
+                    move
+                    forward, it’s time to come up with some ideas.</div>
+            </div>
+            <div class="shoes-box w-full min-h-[10vh] gap-4 flex justify-center items-center">
+                <img src="./image/16.png" width="50" alt="">
+                <div class="come w-[63%] text-[#051101] opacity-[.7]  text-[18px]">Now that you have a ready strategy to
+                    move
+                    forward, it’s time to come up with some ideas.</div>
+            </div>
+            <div class="shoes-box w-full min-h-[10vh] gap-4 flex justify-center items-center">
+                <img src="./image/16.png" width="50" alt="">
+                <div class="come w-[63%] text-[#051101] opacity-[.7]  text-[18px]">Now that you have a ready strategy to
+                    move
+                    forward, it’s time to come up with some ideas.</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="greatest w-full min-h-[70vh] flex justify-center items-center gap-6 ">
+        <div class="reciew w-[25%] min-h-[230px] flex flex-col justify-center items-center gap-8">
+            <div class="i-box text-[#5CBE3A] text-[25px] flex gap-6">
+                <i class="fas fas fa-arrow-left cursor-pointer"></i>
+                <i class="fas fas fa-arrow-right cursor-pointer"></i>
+            </div>
+            <button
+                class="w-[150px] min-h-[50px] border-[1.5px] hover:bg-[#5CBE3A] hover:text-[white] hover:border-none duration-[.3s] border-[#5CBE3A4D] rounded-lg text-[#5CBE3A] text-[20px] font-['Raleway']">More Reciew</button>
+                <div class="ellipse-box flex gap-4">
+                    <div class="ellipse w-[26px] min-h-[26px] rounded-full bg-[#5CBE3A] opacity-[.3] active:opacity-[1] active:bg-[#5CBE3A] duration-[.3s] cursor-pointer"></div>
+                    <div class="ellipse w-[26px] min-h-[26px] rounded-full bg-[#5CBE3A] opacity-[.3] active:opacity-[1] active:bg-[#5CBE3A] duration-[.3s] cursor-pointer"></div>
+                    <div class="ellipse w-[26px] min-h-[26px] rounded-full bg-[#5CBE3A] opacity-[.3] active:opacity-[1] active:bg-[#5CBE3A] duration-[.3s] cursor-pointer"></div>
+                </div>
+        </div>
+        <div class="greatest-right w-[500px] relative shadow min-h-[400px] font-['Raleway'] hover:shadow-lg duration-500 pl-[60px] flex flex-col justify-center gap-8">
+            <img src="./image/18.png" class="abs absolute h-[65vh] left-[100%]" alt="">
+            <h1 class="text-[#051101] font-[700] text-[33px] font-['Raleway']">Greatest Reviews</h1>
+            <div class="name-sohag flex justify-center items-start gap-4">
+                <img src="./image/17.png" class="bars" alt="">
+                <div class="shahr-box flex flex-col gap-3">
+                    <h2 class="text-[#051101] font-bold text-[26px]">Shahriar Sohag</h2>
+                    <div class="with text-[#051101] opacity-[.7]  w-[83%]">Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</div>
+                    <div class="ui-box flex gap-5">
+                        <img src="./image/11.png" alt="">
+                        <h3 class=" text-[#051101] font-[600] text-[20px]">UI Designer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="border-box w-[90%] ml-[10px] mx-auto m-0 h-[2px] bg-[#D8D8D8]">
+            
+            </div>
+        </div>
+    </div>
+    <div class="get-start w-[80%] min-h-[50vh] bg-[#EBFFE4] rounded-xl flex flex-col justify-center items-center gap-7">
+        <h1 class="text-[sUBESCRIBE] text-[50px] font-bold font-['Raleway']">Get Started Now</h1>
+        <div class="that-box text-[#051101] opacity-[.7] w-[43%] text-center  text-[18px]">Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</div>
+        <button
+            class="w-[150px] z-10 min-h-[50px] bg-[#5CBE3A] rounded-md uppercase text-white text-[16px] hover:border-2 hover:border-[#5CBE3A] hover:bg-white hover:text-[#5CBE3A] duration-[.3s]">SUBESCRIBE</button>
+    </div>
+    <footer class="w-full min-h-[20vh] border-t-2 border-t-[#D8D8D8] flex justify-evenly items-center mt-[80px] border-b-[23px] border-b-[#5CBE3A]">
+        <img src="./image/1.png" alt="">
+        <ul class="flex gap-12">
+            <i class=" class fas fa-bars"></i>
+            <li><a href="#" class="text-[16px] text-[#051101] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e]">Home</a></li>
+            <li><a href="#"
+                    class="text-[16px] text-[#051101] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e]">Product</a>
+            </li>
+            <li><a href="#"
+                    class="text-[16px] text-[#051101] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e]">About</a>
+            </li>
+            <li><a href="#"
+                    class="text-[16px] text-[#051101] relative content-none before:absolute before:w-0 before:h-[2px] before:bg-[#32e23e] duration-[.3s] before:duration-[.3s] before:top-full before:left-0 hover:before:w-full hover:text-[#32e23e]">Review</a>
+            </li>
+        </ul>
+        <div class="logo-branding flex gap-7 justify-center items-center">
+            <h2 class="font-['Raleway'] font-bold text-[23px]">Follow Us :</h2>
+            <div class="brand w-[50px] min-h-[50px] bg-[#5CBE3A] text-white hover:text-[#5CBE3A] text-[18px] rounded-full flex justify-center items-center hover:border-[1.5px] hover:border-[#D8D8D8] hover:bg-transparent duration-[.3s] cursor-pointer">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="brand w-[50px] min-h-[50px] bg-[#5CBE3A] text-white hover:text-[#5CBE3A] text-[18px] rounded-full flex justify-center items-center hover:border-[1.5px] hover:border-[#D8D8D8] hover:bg-transparent duration-[.3s] cursor-pointer">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="brand w-[50px] min-h-[50px] bg-[#5CBE3A] text-white hover:text-[#5CBE3A] text-[18px] rounded-full flex justify-center items-center hover:border-[1.5px] hover:border-[#D8D8D8] hover:bg-transparent duration-[.3s] cursor-pointer">
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
